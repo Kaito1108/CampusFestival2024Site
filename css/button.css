@@ -19,3 +19,23 @@ a.btn_01:hover {
     color: #fff;
     background: #27acd9;
 }
+
+@media screen and (max-width: 600px) {
+    a.btn_01 {
+        display: block;
+        text-align: center;
+        font-family: Quantico, sans-serif;
+        vertical-align: middle;
+        text-decoration: none;
+        width: 80px;
+        font-size: 10px;
+        margin-top: 30px;
+        margin: auto;
+        padding: 1rem 4rem;
+        font-weight: bold;
+        border: 2px solid #27acd9;
+        color: #27acd9;
+        border-radius: 100vh;
+        transition: 0.5s;
+    }
+}

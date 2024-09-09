@@ -15,6 +15,24 @@ button {
     border-radius: 16px;
 }
 
+@media screen and (max-width: 900px) {
+    button {
+        display: flex;
+        align-items: center;
+        font-family: inherit;
+        cursor: pointer;
+        font-weight: 500;
+        font-size: 13px;
+        padding: 0.8em 1.3em 0.8em 0.9em;
+        color: white;
+        background: #ad5389;
+        background: linear-gradient(to right, #0f0c29, #302b63, #24243e);
+        border: none;
+        letter-spacing: 0.2em;
+        border-radius: 16px;
+    }
+}
+
 button svg {
     margin-right: 3px;
     transform: rotate(90deg);

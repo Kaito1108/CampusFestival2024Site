@@ -13,6 +13,30 @@
     width: 500px;
 }
 
+@media screen and (max-width: 900px) {
+    .liveReport-title {
+        text-align: center;
+        margin-bottom: 20px;
+        width: 400px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .liveReport-title {
+        text-align: center;
+        margin-bottom: 20px;
+        width: 300px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .liveReport-title {
+        text-align: center;
+        margin-bottom: 20px;
+        width: 200px;
+    }
+}
+
 .liveReport-wrapper {
     display: block;
     unicode-bidi: isolate;
