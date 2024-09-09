@@ -1,0 +1,33 @@
+.link-section {
+    margin-top: 50px;
+    margin-bottom: 150px;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+.link-title {
+    text-align: center;
+    margin-bottom: 20px;
+    width: 300px;
+}
+
+.link-wrapper {
+    display: block;
+    unicode-bidi: isolate;
+}
+
+.link-Area {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+}
+
+.link-btn {
+    text-decoration: none;
+    list-style-type: none;
+    width: 250px;
+    padding: 10px;
+}

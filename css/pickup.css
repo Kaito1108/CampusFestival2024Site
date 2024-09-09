@@ -1,0 +1,90 @@
+.pickup-section {
+    margin-top: 50px;
+    margin-bottom: 150px;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+.pickup-title img {
+    text-align: center;
+    margin-bottom: 20px;
+    width: 454px;
+}
+.pickup-title h2 {
+    font-size: 2.5em;
+    color: #4caf50;
+    margin: 0;
+    text-shadow: 1px 1px 2px rgba(0,0,0,0.1);
+}
+.pickup-title h3 {
+    font-size: 1.2em;
+    color: #333;
+    margin: 5px 0 0;
+}
+.slider {
+    position: relative;
+    overflow: hidden;
+}
+.slide-container {
+    display: flex;
+    transition: transform 0.5s ease;
+}
+.slide {
+    flex: 0 0 100%;
+    padding: 20px;
+    box-sizing: border-box;
+}
+.slide-content {
+    text-align: center;
+}
+.slide-image {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
+.slide h4 {
+    color: #333;
+    margin: 10px 0;
+}
+.slide p {
+    color: #666;
+    margin-bottom: 15px;
+}
+.slide-actions {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.slide-actions button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 1.5em;
+}
+.prev, .next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: rgba(255,255,255,0.7);
+    border: none;
+    font-size: 2em;
+    padding: 10px;
+    cursor: pointer;
+}
+.prev { left: 10px; }
+.next { right: 10px; }
+@keyframes confetti {
+    0% { transform: translateY(0) rotateZ(0); opacity: 1; }
+    100% { transform: translateY(1000%) rotateZ(720deg); opacity: 0; }
+}
+.confetti {
+    position: fixed;
+    width: 10px;
+    height: 10px;
+    background-color: #f0f;
+    clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+    animation: confetti 5s ease-in-out infinite;
+}

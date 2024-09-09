@@ -1,0 +1,61 @@
+.liveReport-section {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.liveReport-title {
+    text-align: center;
+    margin-bottom: 20px;
+    width: 500px;
+}
+
+.liveReport-wrapper {
+    display: block;
+    unicode-bidi: isolate;
+}
+
+.liveReport-Area {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+}
+
+.liveReport-card {
+    box-sizing: border-box;
+    width: 190px;
+    height: 254px;
+    background: rgba(217, 217, 217, 0.58);
+    border: 1px solid white;
+    box-shadow: 12px 17px 51px rgba(0, 0, 0, 0.22);
+    backdrop-filter: blur(6px);
+    border-radius: 17px;
+    text-align: center;
+    cursor: pointer;
+    transition: all 0.5s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    user-select: none;
+    font-weight: bolder;
+    color: black;
+    font-family: Noto Sans JP, sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: .1rem;
+    padding: 3px;
+    margin: 30px;
+}
+
+.liveReport-card:hover {
+    border: 1px solid black;
+    transform: scale(1.05);
+}
+
+.liveReport-card:active {
+    transform: scale(0.95) rotateZ(1.7deg);
+}
