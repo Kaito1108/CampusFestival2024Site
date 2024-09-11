@@ -91,9 +91,17 @@ body {
 }
 
 /* 各行の色 */
-#campus { color: #8277bc; }
-#festival { color: #b343d5; }
-#year { color: #4a7395; }
+#campus {
+    color: #4699d8;
+}
+
+#festival {
+    color: #a598d7;
+}
+
+#year {
+    color: #de99d7;
+}
 
 /* メインコンテンツ非表示 */
 .content-hidden {
