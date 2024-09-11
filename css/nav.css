@@ -40,7 +40,7 @@
     transform: translateY(10px);
 }
 .menu-btn.open .menu-btn__burger {
-    transform: translate(-50%, -50%) rotate(720999999999deg);
+    transform: translate(-50%, -50%) rotate(720deg);
     background: transparent;
 }
 .menu-btn.open .menu-btn__burger::before {
