@@ -40,6 +40,8 @@ body {
 }
 
 .letter {
+    font-family: "Paris2024-Variable";
+    src: url("https://github.com/Kaito1108/CampusFestival2024Site/Paris2024-Variable.ttf") format("truetype");
     display: inline-block;
     font-size: 4rem;
     font-weight: 700;
