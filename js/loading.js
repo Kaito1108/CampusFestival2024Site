@@ -18,8 +18,6 @@ window.addEventListener("load", function () {
         loadingContainer.classList.add("hidden");
 
         // コンテンツをフェードイン
-        setTimeout(() => {
-            content.classList.add("loaded");
-        }, 500);
+        content.classList.add("loaded");
     }, letters.length * 100 + 500); // ローディング終了後のタイミング
 });
