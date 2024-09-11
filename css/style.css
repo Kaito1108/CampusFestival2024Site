@@ -23,6 +23,7 @@ body {
     width: 100px;
     margin-left: 10px;
     position: fixed;
+    z-index: calc(infinity);
 }
 
 .container {
