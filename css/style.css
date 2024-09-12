@@ -54,6 +54,7 @@ body {
 @media screen and (max-width: 600px) {
     .letter {
         display: inline-block;
+        font-family: sans-serif;
         font-size: 40px;
         font-weight: 700;
         opacity: 0;
