@@ -53,8 +53,7 @@ body {
 
 @media screen and (max-width: 600px) {
     .letter {
-        src: url("https://github.com/Kaito1108/CampusFestival2024Site/Paris2024-Variable.ttf") format("truetype");
-        font-family: "Paris2024-Variable";
+        font-family: sans-serif;
         display: inline-block;
         font-size: 40px;
         font-weight: 700;
