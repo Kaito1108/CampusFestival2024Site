@@ -30,6 +30,13 @@
     }
 }
 
+@media screen and (max-width: 400px) {
+    .Exhibition-title img {
+        text-align: center;
+        width: 200px;
+    }
+}
+
 .Exhibition-title h3 {
     color: black;
     font-family: Noto Sans JP;

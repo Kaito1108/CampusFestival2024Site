@@ -17,7 +17,7 @@
 .menu-btn__burger {
     width: 30px;
     height: 4px;
-    background: #ff6b6b;
+    background: #4ecdc4;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -30,7 +30,7 @@
     position: absolute;
     width: 30px;
     height: 4px;
-    background: #ff6b6b;
+    background: #4ecdc4;
     transition: all 0.5s ease-in-out;
 }
 .menu-btn__burger::before {
@@ -55,9 +55,9 @@
     position: fixed;
     top: 0;
     right: 0;
-    width: 300px;
+    width: 400px;
     height: 100vh;
-    background: rgba(255,255,255,0.9);
+    background: rgba(59, 56, 56, 0.9);
     transform: translateX(100%);
     transition: transform 0.5s cubic-bezier(0.68, -0.55, 0.27, 1.55);
     z-index: 99;
@@ -83,12 +83,14 @@
     opacity: 1;
 }
 .nav-menu ul li a {
-    color: #333;
+    color: #c5c5c5;
     text-decoration: none;
-    font-size: 24px;
+    font-size: 35px;
     transition: all 0.3s ease;
     position: relative;
     display: inline-block;
+    font-family: "Paris2024-Variable";
+    src: url("https://github.com/Kaito1108/CampusFestival2024Site/Paris2024-Variable.ttf") format("truetype");
 }
 .nav-menu ul li a::after {
     content: '';

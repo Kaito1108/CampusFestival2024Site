@@ -103,6 +103,34 @@
     }
 }
 
+@media screen and (max-width: 400px) {
+    .liveReport-card {
+        box-sizing: border-box;
+        width: 250px;
+        height: 154px;
+        background: rgba(217, 217, 217, 0.58);
+        border: 1px solid white;
+        box-shadow: 12px 17px 51px rgba(0, 0, 0, 0.22);
+        backdrop-filter: blur(6px);
+        border-radius: 17px;
+        text-align: center;
+        cursor: pointer;
+        transition: all 0.5s;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        user-select: none;
+        font-weight: bolder;
+        color: black;
+        font-family: Noto Sans JP, sans-serif;
+        font-size: 10px;
+        font-weight: 700;
+        letter-spacing: .1rem;
+        padding: 3px;
+        margin: 30px;
+    }
+}
+
 .liveReport-card:hover {
     border: 1px solid black;
     transform: scale(1.05);
