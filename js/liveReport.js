@@ -1,8 +1,8 @@
 const reports = [
-    'みなさんと楽しいキャンフェスを作り上げたいです!',
-    'めちゃくちゃ楽しいです!',
+    '画像で時計が出てきた時はとても焦りました😟',
+    '真下さんの社会への繋げ方がとてもうまかった',
     '謎解きがわからない🤦'
-    
+
 ];
 
 const liveReportArea = document.querySelector('.liveReport-Area');
